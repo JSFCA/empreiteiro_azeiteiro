@@ -1,0 +1,28 @@
+# Banter lines for the opponent.
+# Edit freely — add, remove, or rewrite any line, one sentence per line.
+# Lines starting with # are comments and are ignored.
+# Keep the [SECTION] headers as-is; each line under a header belongs to that event.
+
+# Shouted when the opponent's shot hits YOU.
+[ON_HIT_PLAYER]
+Incha porco!
+Clausula 3 do CPVC: És uma merda aos tiros.
+Percebeste as regras desta merda?
+Marra boi!
+Deixa-te ficar, é melhor...
+Oh puta, deita-te!
+
+# Shouted when YOU land a hit on the opponent.
+[ON_TAKE_DAMAGE]
+Primeiro milho é prós filhas da puta!
+Raspão! Nem senti, essa merda.
+Maaaau...
+Ai o meu canário!...
+Agora enervaste-me!
+Ui! Porco!
+Ah vale bujas?
+
+# Shouted when the opponent wins the match.
+[ON_WIN]
+Entrego-te a casa em 2030! Ahahah!
+

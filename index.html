@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Empreiteiro Azeiteiro</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <canvas id="game-canvas"></canvas>
+
+  <div id="hud">
+    <div class="health-bar-container">
+      <span class="label">YOU</span>
+      <div class="health-bar"><div id="player-health-fill" class="health-fill"></div></div>
+    </div>
+    <div class="health-bar-container">
+      <span class="label">ENEMY</span>
+      <div class="health-bar"><div id="opponent-health-fill" class="health-fill"></div></div>
+    </div>
+  </div>
+
+  <div id="crosshair"></div>
+  <div id="damage-flash"></div>
+  <div id="banter"></div>
+
+  <div id="start-overlay" class="overlay">
+    <h1>Empreiteiro Azeiteiro</h1>
+    <p>Up/Down: move &nbsp;&nbsp; Left/Right: turn &nbsp;&nbsp; Space: shoot</p>
+    <button id="start-button">Click to Start</button>
+  </div>
+
+  <div id="end-overlay" class="overlay hidden">
+    <h1 id="end-title"></h1>
+    <button id="restart-button">Play Again</button>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
